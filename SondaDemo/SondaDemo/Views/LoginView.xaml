@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SondaDemo.ViewModels"
+             x:Class="SondaDemo.Views.LoginView"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowSpacing="0" ColumnSpacing="0"> 
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="45*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="80*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Grid.Row="1" Grid.Column="1" Source="logosonda.png"/>
+                <Entry Grid.Row="3" Grid.Column="1" Placeholder="Email" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding Email}"/>
+                <Entry Grid.Row="4" Grid.Column="1" Placeholder="Password" HorizontalOptions="Fill" VerticalOptions="Center" IsPassword="true" Text="{Binding Password}" />
+                <Button Grid.Row="5" Grid.Column="1" x:Name="Login" Text="Login" Command="{Binding GoToConfirmLogin}" />
+                
+            </Grid>
+            <StackLayout VerticalOptions="EndAndExpand" >
+                <Label Text="Demo Demo S.A.® Todos los derechos son reservados." HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

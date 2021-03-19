@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaDemo.Android", "SondaDemo\SondaDemo.Android\SondaDemo.Android.csproj", "{9FC9D898-0581-4355-AB78-FEFA8F3324D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SondaDemo", "SondaDemo\SondaDemo\SondaDemo.csproj", "{055EF932-ED82-4F9C-B240-30D164625B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC9D898-0581-4355-AB78-FEFA8F3324D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055EF932-ED82-4F9C-B240-30D164625B72}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2FB6C60-8D46-4A60-95AF-D3E14A690CF8}
+	EndGlobalSection
+EndGlobal

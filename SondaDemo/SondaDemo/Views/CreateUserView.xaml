@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SondaDemo.ViewModels"
+             x:Class="SondaDemo.Views.CreateUserView"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowSpacing="0" ColumnSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="10*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="90*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Document number" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding NumberDocument}"/>
+                <Entry Grid.Row="2" Grid.Column="1" Placeholder="Name" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding Name}" />
+                <Entry Grid.Row="3" Grid.Column="1" Placeholder="Last Name" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding LastName}" />
+                <Entry Grid.Row="4" Grid.Column="1" Placeholder="Password" HorizontalOptions="Fill" VerticalOptions="Center" IsPassword="true" Text="{Binding Password}" />
+                <Entry Grid.Row="5" Grid.Column="1" Placeholder="Confirm Password" HorizontalOptions="Fill" VerticalOptions="Center" IsPassword="true" Text="{Binding RePassword}" />
+                <Entry Grid.Row="6" Grid.Column="1" Placeholder="Email" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding Email}" />
+                <Entry Grid.Row="7" Grid.Column="1" Placeholder="Confirm Email" HorizontalOptions="Fill" VerticalOptions="Center" Text="{Binding ReEmail}" />
+
+                <Button Grid.Row="8" Grid.Column="1" x:Name="Login" Text="Create User" Command="{Binding GoCreateUser}" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\bin\Debug\netstandard2.0\SondaDemo.deps.json
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\bin\Debug\netstandard2.0\SondaDemo.dll
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\bin\Debug\netstandard2.0\ref\SondaDemo.dll
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\bin\Debug\netstandard2.0\SondaDemo.pdb
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.AssemblyInfo.cs
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.dll
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\ref\SondaDemo.dll
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.pdb
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\Views\CreateUserView.xaml.g.cs
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\x\source\repos\SondaDemo\SondaDemo\SondaDemo\obj\Debug\netstandard2.0\SondaDemo.csprojAssemblyReference.cache
